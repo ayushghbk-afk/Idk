@@ -1,0 +1,125 @@
+Device Info:
+    Platform: Android
+    Arch: arm64
+    Version: 71001
+    Hash: f05ef16b3276a5832738f0cc8d3a0165
+
+Basic Info:
+    Debug Flags: 0
+    HWID: dc33970679ed2c419df707fc1c5a58ce29a449c6a8133d87201441f6f193601c
+    Pringle: false
+    Game ID: 994732206
+    Place ID: 4442272183
+    Scripts Ran: true
+    Last Action: EXECUTE SCRIPT
+
+Crash Info:
+    Signal: 5
+    Signal Name: UNKNOWN
+    Timestamp (Unix): 1773220236
+    Timestamp (UTC+0): 2026-03-11 09:10:36.954
+
+Script Log:
+    #0: -- Script taken from https://xenoscripts.com website --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+    #1: loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Voidwear-99-nights-in-the-Forest-56116"))()
+    #2: loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    #3:                 if isfile("IY_FE.iy") then
+                    local http_service = game:GetService("HttpService")
+                    local decoded_save = http_service:JSONDecode(readfile("IY_FE.iy"))
+                    
+                    if decoded_save and typeof(decoded_save) == "table" and decoded_save.PluginsTable then
+                        table.clear(decoded_save.PluginsTable)
+                        writefile("IY_FE.iy", http_service:JSONEncode(decoded_save))
+                    en
+
+Stacktrace:
+    #0: /data/data/com.roblox.client/shared_modules/1df94ca27b831aff8fc76f9ae2ff87e0/shared_cache:
+        Location: 0xab4e68
+
+    #1: [vdso]:
+        Location: 0x84c
+        Symbol: __kernel_rt_sigreturn
+
+    #2: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0x114348
+        Symbol: tgkill
+
+    #3: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x5ceceec
+
+    #4: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x5cec9cc
+
+    #5: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x284a2f8
+
+    #6: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x28645bc
+
+    #7: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2864598
+
+    #8: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x1ddbe90
+
+    #9: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x286bc88
+
+    #10: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2139044
+
+    #11: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x5cd5964
+
+    #12: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x5cd7454
+
+    #13: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x5cd7320
+
+    #14: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x3fb8a28
+
+    #15: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2d7d3c0
+
+    #16: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2a94c10
+
+    #17: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x222ffd8
+
+    #18: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x222f9bc
+
+    #19: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x222f7b8
+
+    #20: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x222f3f4
+
+    #21: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x216a634
+
+    #22: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2168d4c
+
+    #23: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x21689f0
+
+    #24: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2168990
+
+    #25: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2167a88
+
+    #26: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x250ae7c
+
+    #27: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x25188d0
+
+    #28: /data/app/~~klcfiGXue1DfIBDdkHYN5w==/com.roblox.client-5fgIgLZP1Pmx2o2EnMSNtw==/lib/arm64/libroblox.so:
+        Location: 0x2507bd0
