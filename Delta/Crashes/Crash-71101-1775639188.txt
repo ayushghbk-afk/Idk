@@ -1,0 +1,137 @@
+Device Info:
+    Platform: Android
+    Arch: arm64
+    Version: 71101
+    Hash: 
+
+Basic Info:
+    Debug Flags: 0
+    HWID: dc33970679ed2c419df707fc1c5a58ce29a449c6a8133d87201441f6f193601c
+    Pringle: false
+    Scripts Ran: false
+    Last Action: NONE
+
+Crash Info:
+    Signal: 11
+    Signal Name: SIGSEGV
+    Timestamp (Unix): 1775639188
+    Timestamp (UTC+0): 2026-04-08 09:06:28.668
+
+Stacktrace:
+    #0: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libloader.so:
+        Location: 0xecac6c
+
+    #1: /apex/com.android.art/lib64/libsigchain.so:
+        Location: 0x6ff4
+        Symbol: _ZN3art11SignalChain7HandlerEiP7siginfoPv
+
+    #2: [vdso]:
+        Location: 0x84c
+        Symbol: __kernel_rt_sigreturn
+
+    #3: /system/lib64/libaudioclient_aidl_conversion.so:
+        Location: 0x34ca0
+
+    #4: /system/lib64/libaudioclient_aidl_conversion.so:
+        Location: 0x47e44
+
+    #5: /system/lib64/libaudioclient.so:
+        Location: 0xda428
+        Symbol: _ZNK7android13IAudioFlinger17CreateRecordInput6toAidlEv
+
+    #6: /system/lib64/libaudioclient.so:
+        Location: 0x6eb18
+        Symbol: _ZN7android11AudioRecord14createRecord_lERKNS_6ModuloIjEE
+
+    #7: /system/lib64/libaudioclient.so:
+        Location: 0x6df0c
+        Symbol: _ZN7android11AudioRecord3setE14audio_source_tj14audio_format_t20audio_channel_mask_tmRKNS_2wpINS0_20IAudioRecordCallbackEEEjb15audio_session_tNS0_13transfer_typeE19audio_input_flags_tjiPK18audio_attributes_ti28audio_microphone_direction_tfi
+
+    #8: /system/lib64/libaaudio_internal.so:
+        Location: 0x5e22c
+        Symbol: _ZN6aaudio17AudioStreamRecord4openERKNS_18AudioStreamBuilderE
+
+    #9: /system/lib64/libaaudio_internal.so:
+        Location: 0x50494
+        Symbol: _ZN6aaudio18AudioStreamBuilder5buildEPPNS_11AudioStreamE
+
+    #10: /system/lib64/libaaudio.so:
+        Location: 0x9c08
+
+    #11: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x4ede528
+
+    #12: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x4e85a04
+
+    #13: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x4e85c68
+
+    #14: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x4e64c50
+
+    #15: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2b89bf0
+
+    #16: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2b6e0ec
+
+    #17: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2b6dcb8
+
+    #18: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2b7c748
+
+    #19: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x4ade8ac
+
+    #20: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x227f26c
+
+    #21: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2277d3c
+
+    #22: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x226a904
+
+    #23: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x5d5dc0c
+
+    #24: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x226a66c
+
+    #25: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2266d8c
+
+    #26: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x22668bc
+
+    #27: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x226663c
+
+    #28: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2ae2a60
+
+    #29: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2accf40
+
+    #30: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x2ac3308
+
+    #31: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x28d21b8
+
+    #32: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x215f7c8
+
+    #33: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x215f6b0
+
+    #34: /data/app/~~sBtZbdCWHZa-SC2CxWSNDw==/com.roblox.client-e91Izgg7rMl4lI2Lluv12w==/lib/arm64/libroblox.so:
+        Location: 0x215f574
+
+    #35: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xbae60
+
+    #36: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xad6f4

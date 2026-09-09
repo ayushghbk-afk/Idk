@@ -1,0 +1,60 @@
+Device Info:
+    Platform: Android
+    Arch: arm64
+    Version: 71001
+    Hash: f05ef16b3276a5832738f0cc8d3a0165
+
+Basic Info:
+    Debug Flags: 0
+    HWID: dc33970679ed2c419df707fc1c5a58ce29a449c6a8133d87201441f6f193601c
+    Pringle: false
+    Game ID: 994732206
+    Place ID: 4442272183
+    Scripts Ran: false
+    Last Action: EXECUTE SCRIPT
+
+Crash Info:
+    Signal: 6
+    Signal Name: SIGABRT
+    Timestamp (Unix): 1773220238
+    Timestamp (UTC+0): 2026-03-11 09:10:38.047
+
+Stacktrace:
+    #0: /data/data/com.roblox.client/shared_modules/1df94ca27b831aff8fc76f9ae2ff87e0/shared_cache:
+        Location: 0xab4e68
+
+    #1: [vdso]:
+        Location: 0x84c
+        Symbol: __kernel_rt_sigreturn
+
+    #2: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xaa61c
+        Symbol: abort
+
+    #3: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xadd20
+        Symbol: fdopendir
+
+    #4: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xbc7b0
+
+    #5: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xbc624
+        Symbol: pthread_mutex_lock
+
+    #6: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xba170
+        Symbol: pthread_cond_wait
+
+    #7: /system/lib64/libc++.so:
+        Location: 0xa0f2c
+        Symbol: _ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE
+
+    #8: /system/lib64/libhwui.so:
+        Location: 0x79ca90
+
+    #9: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xbae60
+
+    #10: /apex/com.android.runtime/lib64/bionic/libc.so:
+        Location: 0xad6f4
